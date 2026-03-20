@@ -1,0 +1,462 @@
+{
+  "nurses": {
+    "N001": {
+      "name": "Priya Singh",
+      "role": "Head Nurse",
+      "shift": "Morning",
+      "password": "nurse123"
+    },
+    "N002": {
+      "name": "Ravi Kumar",
+      "role": "Staff Nurse",
+      "shift": "Afternoon",
+      "password": "nurse123"
+    },
+    "N003": {
+      "name": "Sunita Patel",
+      "role": "Staff Nurse",
+      "shift": "Night",
+      "password": "nurse123"
+    }
+  },
+  "patients": [
+    {
+      "id": "P001",
+      "name": "Anita Sharma",
+      "age": 42,
+      "room": "105",
+      "condition": "Critical",
+      "priority": 1,
+      "assignedTo": "N001",
+      "diet": [
+        {
+          "id": "d1",
+          "meal": "Breakfast",
+          "desc": "Soft diet \u2013 porridge",
+          "done": false
+        },
+        {
+          "id": "d2",
+          "meal": "Lunch",
+          "desc": "Liquid diet",
+          "done": false
+        },
+        {
+          "id": "d3",
+          "meal": "Dinner",
+          "desc": "Light soup",
+          "done": false
+        }
+      ],
+      "medicines": [
+        {
+          "id": "m1",
+          "name": "Insulin",
+          "time": "12:00 PM",
+          "done": false
+        },
+        {
+          "id": "m2",
+          "name": "Antibiotic",
+          "time": "6:00 PM",
+          "done": false
+        },
+        {
+          "id": "m3",
+          "name": "Aspirin",
+          "time": "8:00 AM",
+          "done": false
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "P002",
+      "name": "Ramesh Kumar",
+      "age": 55,
+      "room": "203",
+      "condition": "Stable",
+      "priority": 2,
+      "assignedTo": "N001",
+      "diet": [
+        {
+          "id": "d1",
+          "meal": "Breakfast",
+          "desc": "Oatmeal and fruit",
+          "done": false
+        },
+        {
+          "id": "d2",
+          "meal": "Lunch",
+          "desc": "Low salt meal",
+          "done": false
+        },
+        {
+          "id": "d3",
+          "meal": "Dinner",
+          "desc": "Light meal",
+          "done": false
+        }
+      ],
+      "medicines": [
+        {
+          "id": "m1",
+          "name": "Paracetamol",
+          "time": "8:00 AM",
+          "done": false
+        },
+        {
+          "id": "m2",
+          "name": "Metformin",
+          "time": "1:00 PM",
+          "done": false
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "P003",
+      "name": "Rahul Verma",
+      "age": 30,
+      "room": "208",
+      "condition": "Normal",
+      "priority": 3,
+      "assignedTo": "N001",
+      "diet": [
+        {
+          "id": "d1",
+          "meal": "Breakfast",
+          "desc": "Regular breakfast",
+          "done": false
+        },
+        {
+          "id": "d2",
+          "meal": "Lunch",
+          "desc": "Normal diet",
+          "done": false
+        },
+        {
+          "id": "d3",
+          "meal": "Dinner",
+          "desc": "Regular dinner",
+          "done": false
+        }
+      ],
+      "medicines": [
+        {
+          "id": "m1",
+          "name": "Antibiotic",
+          "time": "6:00 PM",
+          "done": false
+        },
+        {
+          "id": "m2",
+          "name": "Vitamin C",
+          "time": "9:00 AM",
+          "done": false
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "P004",
+      "name": "Sunita Devi",
+      "age": 67,
+      "room": "112",
+      "condition": "Critical",
+      "priority": 1,
+      "assignedTo": "N001",
+      "diet": [
+        {
+          "id": "d1",
+          "meal": "Breakfast",
+          "desc": "IV nutrition",
+          "done": true
+        },
+        {
+          "id": "d2",
+          "meal": "Lunch",
+          "desc": "IV nutrition",
+          "done": false
+        },
+        {
+          "id": "d3",
+          "meal": "Dinner",
+          "desc": "Liquid via tube",
+          "done": false
+        }
+      ],
+      "medicines": [
+        {
+          "id": "m1",
+          "name": "Morphine",
+          "time": "Every 4hrs",
+          "done": false
+        },
+        {
+          "id": "m2",
+          "name": "Ceftriaxone",
+          "time": "8:00 AM",
+          "done": true
+        },
+        {
+          "id": "m3",
+          "name": "Heparin",
+          "time": "Continuous",
+          "done": false
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "P005",
+      "name": "Mohan Lal",
+      "age": 48,
+      "room": "306",
+      "condition": "Stable",
+      "priority": 2,
+      "assignedTo": "N001",
+      "diet": [
+        {
+          "id": "d1",
+          "meal": "Breakfast",
+          "desc": "Low fat diet",
+          "done": false
+        },
+        {
+          "id": "d2",
+          "meal": "Lunch",
+          "desc": "Heart diet",
+          "done": false
+        },
+        {
+          "id": "d3",
+          "meal": "Dinner",
+          "desc": "Low salt meal",
+          "done": false
+        }
+      ],
+      "medicines": [
+        {
+          "id": "m1",
+          "name": "Atorvastatin",
+          "time": "9:00 PM",
+          "done": false
+        },
+        {
+          "id": "m2",
+          "name": "Amlodipine",
+          "time": "8:00 AM",
+          "done": false
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "wardTasks": [
+    {
+      "id": "w1",
+      "name": "Ward sanitation check",
+      "done": true
+    },
+    {
+      "id": "w2",
+      "name": "Equipment inspection",
+      "done": false
+    },
+    {
+      "id": "w3",
+      "name": "Shift report submission",
+      "done": false
+    },
+    {
+      "id": "w4",
+      "name": "Staff meeting reminder",
+      "done": false
+    },
+    {
+      "id": "w5",
+      "name": "Medicine stock count",
+      "done": false
+    }
+  ],
+  "doctorNotes": [],
+  "notifications": [
+    {
+      "type": "info",
+      "msg": "\ud83d\udd04 You transferred 3 tasks to Ravi Kumar"
+    },
+    {
+      "type": "info",
+      "msg": "\ud83d\udd04 3 tasks transferred to Ravi Kumar"
+    },
+    {
+      "type": "info",
+      "msg": "\ud83d\udd04 You transferred 5 tasks to Sunita Patel"
+    },
+    {
+      "type": "info",
+      "msg": "\ud83d\udd04 5 tasks transferred to Sunita Patel"
+    },
+    {
+      "type": "urgent",
+      "msg": "\ud83d\udea8 EMERGENCY: Code Blue \u2013 Cardiac Arrest \u2013 Anita Sharma \u2013 Room 105"
+    },
+    {
+      "type": "urgent",
+      "msg": "\u26a0\ufe0f Anita Sharma (Room 105) \u2013 Insulin due at 12:00 PM"
+    },
+    {
+      "type": "info",
+      "msg": "\ud83d\udccb Ward sanitation check is pending"
+    },
+    {
+      "type": "info",
+      "msg": "\ud83d\udc8a Rahul Verma \u2013 Antibiotic due at 6:00 PM"
+    },
+    {
+      "type": "success",
+      "msg": "\u2705 Ramesh Kumar medicine administered"
+    }
+  ],
+  "transferredTasks": [
+    {
+      "task": "Aspirin for Anita Sharma (8:00 AM)",
+      "from": "Priya Singh",
+      "to": "Sunita Patel"
+    },
+    {
+      "task": "Antibiotic for Anita Sharma (6:00 PM)",
+      "from": "Priya Singh",
+      "to": "Sunita Patel"
+    },
+    {
+      "task": "Insulin for Anita Sharma (12:00 PM)",
+      "from": "Priya Singh",
+      "to": "Sunita Patel"
+    },
+    {
+      "task": "Diet: Breakfast for Anita Sharma",
+      "from": "Priya Singh",
+      "to": "Sunita Patel"
+    },
+    {
+      "task": "Diet: Lunch for Anita Sharma",
+      "from": "Priya Singh",
+      "to": "Sunita Patel"
+    },
+    {
+      "task": "Aspirin for Anita Sharma (8:00 AM)",
+      "from": "Priya Singh",
+      "to": "Ravi Kumar"
+    },
+    {
+      "task": "Paracetamol for Ramesh Kumar (8:00 AM)",
+      "from": "Priya Singh",
+      "to": "Ravi Kumar"
+    },
+    {
+      "task": "Diet: Lunch for Mohan Lal",
+      "from": "Priya Singh",
+      "to": "Ravi Kumar"
+    }
+  ],
+  "wards": [
+    {
+      "name": "ICU",
+      "patients": 12,
+      "pending": 18,
+      "nurses": 3,
+      "critical": 8,
+      "score": 95
+    },
+    {
+      "name": "General Ward",
+      "patients": 20,
+      "pending": 12,
+      "nurses": 5,
+      "critical": 2,
+      "score": 58
+    },
+    {
+      "name": "Pediatrics",
+      "patients": 8,
+      "pending": 8,
+      "nurses": 2,
+      "critical": 3,
+      "score": 72
+    },
+    {
+      "name": "Maternity",
+      "patients": 6,
+      "pending": 5,
+      "nurses": 2,
+      "critical": 0,
+      "score": 30
+    },
+    {
+      "name": "Ortho",
+      "patients": 10,
+      "pending": 10,
+      "nurses": 3,
+      "critical": 1,
+      "score": 55
+    },
+    {
+      "name": "Cardiology",
+      "patients": 9,
+      "pending": 14,
+      "nurses": 2,
+      "critical": 5,
+      "score": 88
+    },
+    {
+      "name": "Neurology",
+      "patients": 7,
+      "pending": 9,
+      "nurses": 2,
+      "critical": 4,
+      "score": 78
+    },
+    {
+      "name": "Oncology",
+      "patients": 11,
+      "pending": 16,
+      "nurses": 3,
+      "critical": 6,
+      "score": 85
+    },
+    {
+      "name": "Emergency",
+      "patients": 15,
+      "pending": 20,
+      "nurses": 4,
+      "critical": 9,
+      "score": 99
+    },
+    {
+      "name": "Surgery",
+      "patients": 8,
+      "pending": 7,
+      "nurses": 2,
+      "critical": 2,
+      "score": 50
+    },
+    {
+      "name": "Nephrology",
+      "patients": 6,
+      "pending": 6,
+      "nurses": 1,
+      "critical": 1,
+      "score": 45
+    },
+    {
+      "name": "Psychiatry",
+      "patients": 5,
+      "pending": 3,
+      "nurses": 1,
+      "critical": 0,
+      "score": 20
+    }
+  ]
+}
