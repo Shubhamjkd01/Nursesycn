@@ -3,7 +3,7 @@ from flask_cors import CORS
 import json, os
 from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__name__
 CORS(app)
 
 DB_FILE = os.path.join(os.path.dirname(__file__), 'nursesync.db')
@@ -15,7 +15,7 @@ def load():
             return json.load(f)
     return get_default_data()
 
-def save(data):
+def save(data)
     with open(DB_FILE, 'w') as f:
         json.dump(data, f, indent=2)
 
