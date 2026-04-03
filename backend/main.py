@@ -10,8 +10,8 @@ DB_FILE = os.path.join(os.path.dirname(__file__), 'nursesync.db'
 
 # ── helpers ──────────────────────────────────────────────────────────────────
 def load():
-    if os.path.exists(DB_FILE):
-        with open(DB_FILE) as f:
+    if os.path.exists(DB_FILE)
+        with open(DB_FILE) as f
             return json.load(f)
     return get_default_data(
 
