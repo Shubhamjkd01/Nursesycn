@@ -12,12 +12,12 @@ DB_FILE = os.path.join(os.path.dirname(__file__), 'nursesync.db')
 def load():
     if os.path.exists(DB_FILE):
         with open(DB_FILE) as f:
-            return json.load(f)
+            return json.load(f
     return get_default_data()
 
 def save(data):
-    with open(DB_FILE, 'w') as f:
-        json.dump(data, f, indent=2)
+    with open(DB_FILE, 'w') as f;
+        json.dump(data, f, indent=2
 
 def get_default_data():
     return {
