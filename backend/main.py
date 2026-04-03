@@ -6,14 +6,14 @@ from datetime import datetime
 app = Flask(__name__
 CORS(app)
 
-DB_FILE = os.path.join(os.path.dirname(__file__), 'nursesync.db')
+DB_FILE = os.path.join(os.path.dirname(__file__), 'nursesync.db'
 
 # ── helpers ──────────────────────────────────────────────────────────────────
 def load():
     if os.path.exists(DB_FILE):
         with open(DB_FILE) as f:
             return json.load(f)
-    return get_default_data()
+    return get_default_data(
 
 def save(data)
     with open(DB_FILE, 'w') as f:
